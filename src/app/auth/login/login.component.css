@@ -1,0 +1,44 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button[mat-raised-button] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button[mat-button] {
+  color: #007bff;
+  text-transform: none;
+}
+
+button[mat-button]:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+button[mat-raised-button]:hover {
+  background-color: #0056b3;
+}
